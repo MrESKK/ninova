@@ -57,5 +57,49 @@ rail.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'||e.button!==0
 const scrollBy=d=>rail.scrollBy({left:d,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('left').onclick=()=>scrollBy(-350);$('right').onclick=()=>scrollBy(350);rail.onkeydown=e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();scrollBy(e.key==='ArrowRight'?350:-350);}};$('query').oninput=render;
 function openBook(i,trigger){current=i;if(!detail.open){lastFocus=trigger||document.activeElement;detail.showModal();}tooltip.hidden=true;const b=visible[i];$('detail-title').textContent=bookTitle(b);$('detail-author').textContent=b.author;$('detail-genre').textContent=b.genres.map(genreName).join(' · ');$('detail-meta').textContent=b.pages?`${b.pages} ${t('pages').toLocaleUpperCase(lang)}`:t('unknownPages');const rating=$('detail-rating');rating.replaceChildren();rating.textContent=b.rating!==null?'★'.repeat(Math.floor(b.rating))+(b.rating%1?'½':''):'';const rt=document.createElement('span');rt.textContent=b.rating!==null?`${number(b.rating)} / 5 · ${t('myRating')}`:t('unknownRating');rating.append(rt);const img=document.createElement('img');img.alt=bookTitle(b)+' '+t('cover');setCoverImage(img,b);$('detail-cover').replaceChildren(img);$('prev').disabled=i===0;$('next').disabled=i===visible.length-1;}
 $('prev').onclick=()=>current>0&&openBook(current-1);$('next').onclick=()=>current<visible.length-1&&openBook(current+1);$('close-detail').onclick=$('shelve').onclick=()=>detail.close();detail.addEventListener('close',()=>lastFocus?.focus());detail.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();$('next').click();}if(e.key==='ArrowLeft'){e.preventDefault();$('prev').click();}});
+// Touch shortcuts apply only inside the open book dialog; the shelf is unchanged.
+let bookTouch=null;
+const detailLayout=detail.querySelector('.detail-layout');
+function resetBookTouch(){bookTouch=null;detailLayout.style.transform='';detailLayout.style.opacity='';}
+detail.addEventListener('touchstart',e=>{
+ resetBookTouch();
+ if(!detail.open||e.touches.length!==1||e.target.closest('button,a,input,select,textarea'))return;
+ const touch=e.touches[0],bounds=detail.getBoundingClientRect();
+ if(touch.clientX<bounds.left||touch.clientX>bounds.right||touch.clientY<bounds.top||touch.clientY>bounds.bottom)return;
+ bookTouch={id:touch.identifier,x:touch.clientX,y:touch.clientY,time:performance.now(),atTop:detail.scrollTop<=1,axis:null};
+},{passive:true});
+detail.addEventListener('touchmove',e=>{
+ if(!bookTouch)return;
+ if(e.touches.length!==1){resetBookTouch();return;}
+ const touch=Array.from(e.touches).find(t=>t.identifier===bookTouch.id);if(!touch){resetBookTouch();return;}
+ const dx=touch.clientX-bookTouch.x,dy=touch.clientY-bookTouch.y;
+ if(!bookTouch.axis){
+  if(Math.max(Math.abs(dx),Math.abs(dy))<12)return;
+  if(Math.abs(dx)>Math.abs(dy)*1.25)bookTouch.axis='horizontal';
+  else if(Math.abs(dy)>Math.abs(dx)*1.25)bookTouch.axis=dy>0&&bookTouch.atTop?'dismiss':'scroll';
+  else return;
+ }
+ if(bookTouch.axis==='scroll')return;
+ if(e.cancelable)e.preventDefault();
+ if(bookTouch.axis==='horizontal'){
+  const canMove=dx>0?current>0:current<visible.length-1;
+  detailLayout.style.transform=`translateX(${Math.max(-80,Math.min(80,dx*(canMove ? .35 : .1)))}px)`;
+ }else detailLayout.style.transform=`translateY(${Math.max(0,Math.min(100,dy*.4))}px)`;
+ detailLayout.style.opacity=String(1-Math.min(.2,Math.abs(bookTouch.axis==='horizontal'?dx:dy)/800));
+},{passive:false});
+detail.addEventListener('touchend',e=>{
+ if(!bookTouch)return;
+ const state=bookTouch,touch=Array.from(e.changedTouches).find(t=>t.identifier===state.id);
+ resetBookTouch();if(!touch||!detail.open||performance.now()-state.time>1200)return;
+ const dx=touch.clientX-state.x,dy=touch.clientY-state.y;
+ if(state.axis==='horizontal'&&Math.abs(dx)>=60&&Math.abs(dx)>Math.abs(dy)*1.35){
+  const next=current+(dx>0?-1:1);
+  if(next<0||next>=visible.length)return;
+  openBook(next);detail.scrollTop=0;
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches)detailLayout.animate([{transform:`translateX(${dx>0?-20:20}px)`,opacity:.8},{transform:'translateX(0)',opacity:1}],{duration:180,easing:'ease-out'});
+ }else if(state.axis==='dismiss'&&state.atTop&&dy>=100&&dy>Math.abs(dx)*1.5)detail.close();
+},{passive:true});
+detail.addEventListener('touchcancel',resetBookTouch,{passive:true});
+detail.addEventListener('close',resetBookTouch);
 [detail,recd].forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}}));
 $('recommend').onclick=()=>{recd.showModal();$('send').disabled=false;$('mail-hint').hidden=false;$('recommend-status').textContent='';if(config.recommendationsUrl){$('recommend-form').hidden=true;$('recommend-frame').hidden=false;updateFrame();}else if(!config.email){$('send').disabled=true;$('mail-hint').hidden=true;$('recommend-status').textContent=t('unconfigured');}};$('close-recommend').onclick=()=>recd.close();$('recommend-form').onsubmit=e=>{e.preventDefault();if(!config.email)return;const d=Object.fromEntries(new FormData(e.target));const subject=t('mailSubject')+': '+d.title;const body=`${t('recommender')}: ${d.name}\n${t('bookTitle')}: ${d.title}\n${t('author')}: ${d.author}\n\n${d.note}`;location.href=`mailto:${encodeURIComponent(config.email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;$('recommend-status').textContent=t('draftStatus');};localize();render();
