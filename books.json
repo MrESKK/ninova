@@ -3641,5 +3641,805 @@
       "en": "The Robots of Dawn",
       "es": "Los robots del amanecer"
     }
+  },
+  {
+    "id": "b-bb92900102",
+    "title": "Kapital – Birinci Cilt",
+    "author": "Karl Marx",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Ekonomi"
+    ],
+    "cover": "assets/covers/b-bb92900102.webp",
+    "spine": "#a22319",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-bb92900102.webp",
+      "en": "assets/covers/b-bb92900102.webp",
+      "es": "assets/covers/b-bb92900102.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Kapital – Birinci Cilt",
+      "en": "Capital, Volume I",
+      "es": "El capital, tomo I"
+    }
+  },
+  {
+    "id": "b-fd11eed71f",
+    "title": "Sisifos Söyleni",
+    "author": "Albert Camus",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Felsefe"
+    ],
+    "cover": "assets/covers/b-fd11eed71f.webp",
+    "spine": "#d9d5ce",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-fd11eed71f.webp",
+      "en": "assets/covers/b-fd11eed71f.webp",
+      "es": "assets/covers/b-fd11eed71f.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Sisifos Söyleni",
+      "en": "The Myth of Sisyphus",
+      "es": "El mito de Sísifo"
+    }
+  },
+  {
+    "id": "b-779bb9da13",
+    "title": "Robotların Yükselişi",
+    "author": "Martin Ford",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Teknoloji"
+    ],
+    "cover": "assets/covers/b-779bb9da13.webp",
+    "spine": "#774b34",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-779bb9da13.webp",
+      "en": "assets/covers/b-779bb9da13.webp",
+      "es": "assets/covers/b-779bb9da13.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Robotların Yükselişi",
+      "en": "Rise of the Robots",
+      "es": "El ascenso de los robots"
+    }
+  },
+  {
+    "id": "b-0ff1ac84b4",
+    "title": "The Price of Time",
+    "author": "Edward Chancellor",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Ekonomi"
+    ],
+    "cover": "assets/covers/b-0ff1ac84b4.webp",
+    "spine": "#d7d7d1",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-0ff1ac84b4.webp",
+      "en": "assets/covers/b-0ff1ac84b4.webp",
+      "es": "assets/covers/b-0ff1ac84b4.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "The Price of Time",
+      "en": "The Price of Time",
+      "es": "El precio del tiempo"
+    }
+  },
+  {
+    "id": "b-226ceae813",
+    "title": "Atatürk Dönemi Maliye Politikaları",
+    "author": "T.C. Maliye Bakanlığı",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Ekonomi"
+    ],
+    "cover": "assets/covers/b-226ceae813.webp",
+    "spine": "#a1603e",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-226ceae813.webp",
+      "en": "assets/covers/b-226ceae813.webp",
+      "es": "assets/covers/b-226ceae813.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Atatürk Dönemi Maliye Politikaları",
+      "en": "Fiscal Policies in the Atatürk Era",
+      "es": "Políticas fiscales en la era de Atatürk"
+    }
+  },
+  {
+    "id": "b-1482b094d7",
+    "title": "Niçin Sosyalizm?",
+    "author": "Albert Einstein ve Harold J. Laski",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Felsefe"
+    ],
+    "cover": "assets/covers/b-1482b094d7.webp",
+    "spine": "#cdac83",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-1482b094d7.webp",
+      "en": "assets/covers/b-1482b094d7.webp",
+      "es": "assets/covers/b-1482b094d7.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Niçin Sosyalizm?",
+      "en": "Why Socialism?",
+      "es": "¿Por qué el socialismo?"
+    }
+  },
+  {
+    "id": "b-2292db4a9d",
+    "title": "Zindan Adası",
+    "author": "Dennis Lehane",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Polisiye"
+    ],
+    "cover": "assets/covers/b-2292db4a9d.webp",
+    "spine": "#4a5d6b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-2292db4a9d.webp",
+      "en": "assets/covers/b-2292db4a9d.webp",
+      "es": "assets/covers/b-2292db4a9d.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Zindan Adası",
+      "en": "Shutter Island",
+      "es": "Shutter Island"
+    }
+  },
+  {
+    "id": "b-9620e43d70",
+    "title": "22/11/63",
+    "author": "Stephen King",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Roman"
+    ],
+    "cover": "assets/covers/b-9620e43d70.webp",
+    "spine": "#8f7650",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-9620e43d70.webp",
+      "en": "assets/covers/b-9620e43d70.webp",
+      "es": "assets/covers/b-9620e43d70.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "22/11/63",
+      "en": "11/22/63",
+      "es": "22/11/63"
+    }
+  },
+  {
+    "id": "b-43a0e0e4fe",
+    "title": "Yaratıcılık A.Ş.",
+    "author": "Ed Catmull ve Amy Wallace",
+    "pages": 376,
+    "rating": 4.5,
+    "genres": [
+      "İş Dünyası"
+    ],
+    "cover": "https://img.kitapyurdu.com/v1/getImage/fn%3A1141639/wi%3A800/wh%3A9c9fc9698",
+    "spine": "#3b3b3b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "https://img.kitapyurdu.com/v1/getImage/fn%3A1141639/wi%3A800/wh%3A9c9fc9698",
+      "en": "https://img.kitapyurdu.com/v1/getImage/fn%3A1141639/wi%3A800/wh%3A9c9fc9698",
+      "es": "https://img.kitapyurdu.com/v1/getImage/fn%3A1141639/wi%3A800/wh%3A9c9fc9698"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Yaratıcılık A.Ş.",
+      "en": "Creativity, Inc.",
+      "es": "Creatividad, S.A."
+    }
+  },
+  {
+    "id": "b-8f2cac39b1",
+    "title": "Androidler Elektrikli Koyun Düşler mi?",
+    "author": "Philip K. Dick",
+    "pages": null,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-8f2cac39b1.webp",
+    "spine": "#8e8171",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-8f2cac39b1.webp",
+      "en": "assets/covers/b-8f2cac39b1.webp",
+      "es": "assets/covers/b-8f2cac39b1.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Androidler Elektrikli Koyun Düşler mi?",
+      "en": "Do Androids Dream of Electric Sheep?",
+      "es": "¿Sueñan los androides con ovejas eléctricas?"
+    }
+  },
+  {
+    "id": "b-38070c156f",
+    "title": "Hasan-Âli Yücel ve Türk Aydınlanması",
+    "author": "A. M. Celal Şengör",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Tarih"
+    ],
+    "cover": "assets/covers/b-38070c156f.webp",
+    "spine": "#444341",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-38070c156f.webp",
+      "en": "assets/covers/b-38070c156f.webp",
+      "es": "assets/covers/b-38070c156f.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Hasan-Âli Yücel ve Türk Aydınlanması",
+      "en": "Hasan-Âli Yücel and the Turkish Enlightenment",
+      "es": "Hasan-Âli Yücel y la Ilustración turca"
+    }
+  },
+  {
+    "id": "b-7da05f2c83",
+    "title": "Benjamin Franklin",
+    "author": "Walter Isaacson",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Biyografi"
+    ],
+    "cover": "assets/covers/b-7da05f2c83.webp",
+    "spine": "#595456",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-7da05f2c83.webp",
+      "en": "assets/covers/b-7da05f2c83.webp",
+      "es": "assets/covers/b-7da05f2c83.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Benjamin Franklin",
+      "en": "Benjamin Franklin",
+      "es": "Benjamin Franklin"
+    }
+  },
+  {
+    "id": "b-f6976f53a8",
+    "title": "Oblomov",
+    "author": "İvan Gonçarov",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Roman"
+    ],
+    "cover": "assets/covers/b-f6976f53a8.webp",
+    "spine": "#70201b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-f6976f53a8.webp",
+      "en": "assets/covers/b-f6976f53a8.webp",
+      "es": "assets/covers/b-f6976f53a8.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Oblomov",
+      "en": "Oblomov",
+      "es": "Oblómov"
+    }
+  },
+  {
+    "id": "b-af0061b946",
+    "title": "Newton Neden Türk Değildi?",
+    "author": "A. M. Celal Şengör",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Bilim"
+    ],
+    "cover": "assets/covers/b-af0061b946.webp",
+    "spine": "#6e6060",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-af0061b946.webp",
+      "en": "assets/covers/b-af0061b946.webp",
+      "es": "assets/covers/b-af0061b946.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Newton Neden Türk Değildi?",
+      "en": "Why Was Newton Not Turkish?",
+      "es": "¿Por qué Newton no era turco?"
+    }
+  },
+  {
+    "id": "b-f3445b20f7",
+    "title": "Yaşamın Evrimi",
+    "author": "A. M. Celal Şengör",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Bilim"
+    ],
+    "cover": "assets/covers/b-f3445b20f7.webp",
+    "spine": "#8e8c8d",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-f3445b20f7.webp",
+      "en": "assets/covers/b-f3445b20f7.webp",
+      "es": "assets/covers/b-f3445b20f7.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Yaşamın Evrimi",
+      "en": "The Evolution of Life",
+      "es": "La evolución de la vida"
+    }
+  },
+  {
+    "id": "b-76ece72048",
+    "title": "İşte Tanrılar",
+    "author": "Isaac Asimov",
+    "pages": null,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-76ece72048.webp",
+    "spine": "#3c3a65",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-76ece72048.webp",
+      "en": "assets/covers/b-76ece72048.webp",
+      "es": "assets/covers/b-76ece72048.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "İşte Tanrılar",
+      "en": "The Gods Themselves",
+      "es": "Los propios dioses"
+    }
+  },
+  {
+    "id": "b-e77660639c",
+    "title": "Yüksek Şatodaki Adam",
+    "author": "Philip K. Dick",
+    "pages": null,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-e77660639c.webp",
+    "spine": "#453d73",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-e77660639c.webp",
+      "en": "assets/covers/b-e77660639c.webp",
+      "es": "assets/covers/b-e77660639c.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Yüksek Şatodaki Adam",
+      "en": "The Man in the High Castle",
+      "es": "El hombre en el castillo"
+    }
+  },
+  {
+    "id": "b-762311dca2",
+    "title": "Don Kişot",
+    "author": "Miguel de Cervantes Saavedra",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Roman"
+    ],
+    "cover": "assets/covers/b-762311dca2.webp",
+    "spine": "#9f764f",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-762311dca2.webp",
+      "en": "assets/covers/b-762311dca2.webp",
+      "es": "assets/covers/b-762311dca2.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Don Kişot",
+      "en": "Don Quixote",
+      "es": "Don Quijote"
+    }
+  },
+  {
+    "id": "b-c2d6069ee3",
+    "title": "Dahi Diktatör",
+    "author": "A. M. Celal Şengör",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Tarih"
+    ],
+    "cover": "assets/covers/b-c2d6069ee3.webp",
+    "spine": "#908c8b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-c2d6069ee3.webp",
+      "en": "assets/covers/b-c2d6069ee3.webp",
+      "es": "assets/covers/b-c2d6069ee3.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Dahi Diktatör",
+      "en": "The Genius Dictator",
+      "es": "El dictador genial"
+    }
+  },
+  {
+    "id": "b-81b563d4c6",
+    "title": "Star Trek / Legion of Super-Heroes #1",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-1f92b88ab3.webp",
+    "spine": "#868086",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-1f92b88ab3.webp",
+      "en": "assets/covers/b-1f92b88ab3.webp",
+      "es": "assets/covers/b-1f92b88ab3.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #1",
+      "en": "Star Trek / Legion of Super-Heroes #1",
+      "es": "Star Trek / Legion of Super-Heroes #1"
+    }
+  },
+  {
+    "id": "b-8afac03f93",
+    "title": "Star Trek / Legion of Super-Heroes #2",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-66f011342f.webp",
+    "spine": "#a8a7a3",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-66f011342f.webp",
+      "en": "assets/covers/b-66f011342f.webp",
+      "es": "assets/covers/b-66f011342f.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #2",
+      "en": "Star Trek / Legion of Super-Heroes #2",
+      "es": "Star Trek / Legion of Super-Heroes #2"
+    }
+  },
+  {
+    "id": "b-7f13250ecb",
+    "title": "Star Trek / Legion of Super-Heroes #3",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-8568a1024c.webp",
+    "spine": "#b2b2b4",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-8568a1024c.webp",
+      "en": "assets/covers/b-8568a1024c.webp",
+      "es": "assets/covers/b-8568a1024c.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #3",
+      "en": "Star Trek / Legion of Super-Heroes #3",
+      "es": "Star Trek / Legion of Super-Heroes #3"
+    }
+  },
+  {
+    "id": "b-8568a1024c",
+    "title": "Star Trek / Legion of Super-Heroes #4",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-7f13250ecb.webp",
+    "spine": "#a38e76",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-7f13250ecb.webp",
+      "en": "assets/covers/b-7f13250ecb.webp",
+      "es": "assets/covers/b-7f13250ecb.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #4",
+      "en": "Star Trek / Legion of Super-Heroes #4",
+      "es": "Star Trek / Legion of Super-Heroes #4"
+    }
+  },
+  {
+    "id": "b-66f011342f",
+    "title": "Star Trek / Legion of Super-Heroes #5",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-8afac03f93.webp",
+    "spine": "#868d91",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-8afac03f93.webp",
+      "en": "assets/covers/b-8afac03f93.webp",
+      "es": "assets/covers/b-8afac03f93.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #5",
+      "en": "Star Trek / Legion of Super-Heroes #5",
+      "es": "Star Trek / Legion of Super-Heroes #5"
+    }
+  },
+  {
+    "id": "b-1f92b88ab3",
+    "title": "Star Trek / Legion of Super-Heroes #6",
+    "author": "Chris Roberson",
+    "pages": 32,
+    "rating": 5.0,
+    "genres": [
+      "Bilimkurgu"
+    ],
+    "cover": "assets/covers/b-81b563d4c6.webp",
+    "spine": "#998d88",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-81b563d4c6.webp",
+      "en": "assets/covers/b-81b563d4c6.webp",
+      "es": "assets/covers/b-81b563d4c6.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Star Trek / Legion of Super-Heroes #6",
+      "en": "Star Trek / Legion of Super-Heroes #6",
+      "es": "Star Trek / Legion of Super-Heroes #6"
+    }
+  },
+  {
+    "id": "b-6469d77770",
+    "title": "Yapay Zekâ – Geçmişi ve Geleceği",
+    "author": "Nils J. Nilsson",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Bilim"
+    ],
+    "cover": "assets/covers/b-6469d77770.webp",
+    "spine": "#72828e",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-6469d77770.webp",
+      "en": "assets/covers/b-6469d77770.webp",
+      "es": "assets/covers/b-6469d77770.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Yapay Zekâ – Geçmişi ve Geleceği",
+      "en": "The Quest for Artificial Intelligence",
+      "es": "La búsqueda de la inteligencia artificial"
+    }
+  },
+  {
+    "id": "b-cfaea9d8ab",
+    "title": "Bir Bilim Adamının Serüveni – “Celâl Şengör Kitabı”",
+    "author": "Sefa Kaplan",
+    "pages": 675,
+    "rating": 4.0,
+    "genres": [
+      "Biyografi"
+    ],
+    "cover": "https://www.iskultur.com.tr/dosyalar/2013/12/BIR-BILIM-ADAMININ-SERUVENI.png",
+    "spine": "#5f443f",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "https://www.iskultur.com.tr/dosyalar/2013/12/BIR-BILIM-ADAMININ-SERUVENI.png",
+      "en": "https://www.iskultur.com.tr/dosyalar/2013/12/BIR-BILIM-ADAMININ-SERUVENI.png",
+      "es": "https://www.iskultur.com.tr/dosyalar/2013/12/BIR-BILIM-ADAMININ-SERUVENI.png"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Bir Bilim Adamının Serüveni – “Celâl Şengör Kitabı”",
+      "en": "The Adventure of a Scientist – The Celâl Şengör Book",
+      "es": "La aventura de un científico – El libro de Celâl Şengör"
+    }
+  },
+  {
+    "id": "b-9b6391b8dc",
+    "title": "Churchill",
+    "author": "Martin Gilbert",
+    "pages": 1212,
+    "rating": 4.0,
+    "genres": [
+      "Biyografi"
+    ],
+    "cover": "https://img.iskultur.com.tr/webp/2024/04/churchill-1-270x400.jpg",
+    "spine": "#3b3b3b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "https://img.iskultur.com.tr/webp/2024/04/churchill-1-270x400.jpg",
+      "en": "https://img.iskultur.com.tr/webp/2024/04/churchill-1-270x400.jpg",
+      "es": "https://img.iskultur.com.tr/webp/2024/04/churchill-1-270x400.jpg"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Churchill",
+      "en": "Churchill: A Life",
+      "es": "Churchill: Una vida"
+    }
+  },
+  {
+    "id": "b-7d4e3cbc21",
+    "title": "Caesar",
+    "author": "Adrian Goldsworthy",
+    "pages": 664,
+    "rating": 4.0,
+    "genres": [
+      "Biyografi"
+    ],
+    "cover": "https://img.iskultur.com.tr/webp/2024/10/caesar-270x400.jpg",
+    "spine": "#3b3b3b",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "https://img.iskultur.com.tr/webp/2024/10/caesar-270x400.jpg",
+      "en": "https://img.iskultur.com.tr/webp/2024/10/caesar-270x400.jpg",
+      "es": "https://img.iskultur.com.tr/webp/2024/10/caesar-270x400.jpg"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Caesar",
+      "en": "Caesar: Life of a Colossus",
+      "es": "César: La vida de un coloso"
+    }
+  },
+  {
+    "id": "b-5de4383408",
+    "title": "Bartman #3",
+    "author": "Jan Strnad ve Steve Vance",
+    "pages": 36,
+    "rating": 4.0,
+    "genres": [
+      "Çizgi Roman"
+    ],
+    "cover": "assets/covers/b-5de4383408.webp",
+    "spine": "#e2dcd7",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-5de4383408.webp",
+      "en": "assets/covers/b-5de4383408.webp",
+      "es": "assets/covers/b-5de4383408.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Bartman #3",
+      "en": "Bartman #3",
+      "es": "Bartman #3"
+    }
+  },
+  {
+    "id": "b-53bc503a27",
+    "title": "Hayvan Çiftliği",
+    "author": "George Orwell",
+    "pages": null,
+    "rating": 4.0,
+    "genres": [
+      "Roman"
+    ],
+    "cover": "assets/covers/b-53bc503a27.webp",
+    "spine": "#a5a26f",
+    "ink": "#241f19",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-53bc503a27.webp",
+      "en": "assets/covers/b-53bc503a27.webp",
+      "es": "assets/covers/b-53bc503a27.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Hayvan Çiftliği",
+      "en": "Animal Farm",
+      "es": "Rebelión en la granja"
+    }
+  },
+  {
+    "id": "b-7703ab2e46",
+    "title": "Tüfek, Mikrop ve Çelik",
+    "author": "Jared Diamond",
+    "pages": null,
+    "rating": 4.5,
+    "genres": [
+      "Tarih"
+    ],
+    "cover": "assets/covers/b-7703ab2e46.webp",
+    "spine": "#4a3c2e",
+    "ink": "#faf7f0",
+    "source": "user-library-2026-10-02",
+    "covers": {
+      "tr": "assets/covers/b-7703ab2e46.webp",
+      "en": "assets/covers/b-7703ab2e46.webp",
+      "es": "assets/covers/b-7703ab2e46.webp"
+    },
+    "coverStyles": {},
+    "titles": {
+      "tr": "Tüfek, Mikrop ve Çelik",
+      "en": "Guns, Germs, and Steel",
+      "es": "Armas, gérmenes y acero"
+    }
   }
 ]
